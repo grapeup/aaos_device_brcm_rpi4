@@ -17,14 +17,14 @@ disable_overscan=1
 
 # Display panel
 #dtoverlay=vc4-kms-dsi-7inch
-dtoverlay=rpi-backlight
+#dtoverlay=rpi-backlight
 
 # Graphics acceleration
 dtoverlay=vc4-kms-v3d
 dtoverlay=cma,cma-512
 
 # I2C
-dtparam=i2c_arm=on
+#dtparam=i2c_arm=on
 
 # I2S
 #dtparam=i2s=on
