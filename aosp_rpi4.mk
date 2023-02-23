@@ -7,8 +7,10 @@
 # Inherit device configuration
 $(call inherit-product, device/brcm/rpi4/device.mk)
 
-PRODUCT_LOCALES := pl_PL
-PRODUCT_PROPERTY_OVERRIDES += persist.sys.timezone=Europe/Warsaw
+# Localization
+# PRODUCT_LOCALES := pl_PL
+# PRODUCT_PROPERTY_OVERRIDES += persist.sys.timezone=Europe/Warsaw
+
 $(call inherit-product, device/brcm/rpi4-car/rpi4_car.mk)
 
 # Device identifier. This must come after all inclusions.
